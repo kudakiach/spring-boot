@@ -23,6 +23,11 @@ public class Employee {
 	public Long getId() {
 		return id;
 	}
+	
+	public void setId(Long id) {
+		this.id = id;
+		
+	}
 
 	public String getName() {
 		return name;
@@ -61,6 +66,8 @@ public class Employee {
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", role=" + role + "]";
 	}
+
+	
 	
 	
 	
